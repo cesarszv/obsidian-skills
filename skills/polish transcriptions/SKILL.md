@@ -366,3 +366,12 @@ A successfully polished transcription:
 4. **Has clear cognitive structure** — Easy to navigate and reference
 5. **Preserves speaker personality** — Quotes and dialogues maintain voice
 6. **Is immediately usable** — No further editing needed by user
+
+---
+
+## References
+
+- [Obsidian Callouts Documentation](https://help.obsidian.md/callouts)
+- [Obsidian Properties and Frontmatter](https://help.obsidian.md/properties)
+- [Mermaid Diagram Syntax](https://mermaid.js.org/intro/)
+- [CommonMark Specification](https://commonmark.org/)

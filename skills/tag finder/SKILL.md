@@ -490,3 +490,12 @@ When in doubt:
 4. Suggest when to revisit
 
 **The goal is useful navigation, not absolute truth.**
+
+---
+
+## References
+
+- [Obsidian Tags Documentation](https://help.obsidian.md/tags)
+- [Obsidian Properties and Frontmatter](https://help.obsidian.md/properties)
+- [Library of Congress Classification](https://www.loc.gov/catdir/cpso/lcco/)
+- [ACM Computing Classification System](https://dl.acm.org/ccs)

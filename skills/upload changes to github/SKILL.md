@@ -243,3 +243,100 @@ Write as if you are teaching the codebase to a new hire. Explain the context.
 ### 4. Conventional Commits
 
 Strictly follow `type(scope): description` for the first line only. The rest is free-form audit.
+
+---
+
+## Example Output
+
+Below is a condensed example of what a generated commit message should look like:
+
+```markdown
+docs(skills): Add comprehensive alias and workout documentation skills
+
+## 📋 Executive Audit Summary
+
+This commit introduces two new skills to the obsidian skills library: a complete
+rewrite of the alias setup skill and a new workout day planning skill. The alias
+skill now provides structured guidelines for adding cross-language and acronym
+aliases to notes, improving vault discoverability. The workout skill enables
+precise gym session planning with RPE-based progressive overload tracking.
+
+## 🛠️ Detailed Changes Implemented
+
+### Added
+
+- **set up aliases/SKILL.md**
+  - **Description**: Complete skill documentation including overview, guidelines,
+    examples, and validation checklist
+  - **Technical Implementation**: Pure markdown with YAML frontmatter, following
+    the expert skill pattern from obsidian-zarvent
+  - **Rationale**: Previous version was just raw examples without context or structure
+  - **Impact**: Agents can now reliably add meaningful aliases to notes
+
+### Modified
+
+- **workout day/SKILL.md**
+  - **Context**: Was using XML-like syntax tags that broke markdown rendering
+  - **Change**: Converted to pure markdown with tables and proper structure
+  - **Reasoning**: XML syntax was non-standard and incomplete
+  - **Migration**: No breaking changes; improved format is backward compatible
+
+## 🏗️ Technical Implementation & Architecture
+
+### Architecture Decisions
+
+Adopted the structure pattern from expert skills in obsidian-zarvent:
+1. Frontmatter with precise trigger description
+2. Overview section explaining purpose
+3. Core content with tables for structured data
+4. Complete examples showing input → output
+5. Validation checklist
+6. External references
+
+### Dependencies
+
+- None
+
+## 🧠 Rationale & Trade-offs
+
+### Trade-offs Analysis
+
+- **Advantages**: Consistent structure, better agent activation, complete documentation
+- **Disadvantages/Risks**: Longer files, more maintenance overhead
+- **Rejected Alternatives**: Minimal documentation (would repeat previous issues)
+
+## 📉 Impact Analysis
+
+### Developer Experience
+
+- Skills now follow a predictable pattern
+- Easier to create new skills by copying structure
+- Validation checklists ensure quality
+
+## 💸 Technical Debt
+
+### Resolved
+
+- Inconsistent skill formats now standardized
+
+## ✅ Review Checklist
+
+- [x] Code follows project conventions
+- [x] No sensitive data (secrets/keys)
+- [x] Error handling is robust
+- [x] Performance impact considered
+
+---
+
+**Files Changed**: 6 files
+**Commit Type**: docs
+**Scope**: skills
+```
+
+---
+
+## References
+
+- [Conventional Commits Specification](https://www.conventionalcommits.org/)
+- [Git Documentation](https://git-scm.com/doc)
+- [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow)
