@@ -1,6 +1,6 @@
 ---
-name: standardizing-workout-logs
-description: Standardizes raw workout notes into machine-readable Markdown. Converts Spanish shorthand, mixed formats, and informal gym notes into structured English logs with proper frontmatter. Use when processing workout data, gym sessions, exercise logs, or fitness tracking notes.
+name: workout log standarization
+description: standardizes raw gym notes and spanish shorthand into machine-readable english markdown logs. use when converting informal fitness tracking into structured vault data.
 ---
 
 # Workout Log Standardization

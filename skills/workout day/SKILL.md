@@ -1,6 +1,6 @@
 ---
 name: workout day
-description: This skill is for doing your daily gym routine/workout.
+description: executes and logs daily gym routines with precision. follows a specific target-set-rep structure focused on physical optimization and high-quality data tracking.
 ---
 
 <user context>

@@ -1,6 +1,6 @@
 ---
-name: tag-finder
-description: Assigns hierarchical academic tags through deep analytical reasoning. Adapts taxonomy depth and structure based on note context, interdisciplinary nature, and knowledge maturity. Provides transparent reasoning for all decisions, treating tagging as an exploratory process rather than mechanical classification.
+name: tag finder
+description: assigns hierarchical academic tags using deep analytical reasoning. adapts taxonomy depth to note context and provides transparent reasoning for every classification decision.
 ---
 
 # ADAPTIVE HIERARCHICAL TAGGING PROTOCOL

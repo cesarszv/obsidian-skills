@@ -1,6 +1,6 @@
 ---
-name: comprehensive-commit-upload
-description: Analyzes uncommitted changes and generates a MASSIVE, AUDIT-LEVEL technical document as a commit message. Covers implementation details, architectural decisions, trade-offs, and technical debt in extreme detail.
+name: upload changes to github for obsidian vault
+description: analyzes uncommitted changes to generate a massive audit-level commit message. documents architectural decisions, trade-offs, and technical debt in exhaustive detail before pushing to github.
 ---
 
 # Comprehensive Commit Message Generation & GitHub Upload

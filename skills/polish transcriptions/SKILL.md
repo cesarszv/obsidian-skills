@@ -1,10 +1,6 @@
 ---
-name: polish-transcriptions
-description: Transform raw, machine-generated transcriptions into polished, readable documents. Use when the user has a poorly transcribed workshop, lecture, interview, or meeting and wants it reorganized with cognitive order, proper formatting, and complete information preservation. Requires obsidian-markdown skill.
-version: "1.0"
-tags: ["transcription", "editing", "obsidian", "documentation"]
-requires:
-  - obsidian-markdown
+name: polish transcriptions
+description: transforms raw transcriptions into polished obsidian notes with zero information loss. use for meetings, lectures, or interviews requiring cognitive reorganization, obsidian callouts, and structured formatting.
 ---
 
 # Polish Transcriptions Skill
