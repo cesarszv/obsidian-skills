@@ -1,3 +1,8 @@
+---
+name: Infographics Mermaid.js
+description: A creative methodology for using Mermaid.js to create visually engaging, infographic-style diagrams that go
+---
+
 # Creative Methodology for Infographic-Style Mermaid.js
 
 ## Core Philosophy: Beyond Boxes and Arrows
